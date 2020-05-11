@@ -9,8 +9,6 @@ const { NODE_ENV } = require('./config')
 const app = express()
 
 const morganOption = (process.env.NODE_ENV === 'production')
-    const morganOption = (NODE_ENV === 'production')
-
     ? 'tiny'
     : 'common';
 
